@@ -35,7 +35,7 @@ var scoreText;
 // Juego
 class Juego extends Phaser.Scene {
     constructor() {
-        super("Juego");
+        super("PlayGame");
     }
     preload() {
         this.load.image('sky', 'sky.png');
