@@ -2,13 +2,13 @@ let game;
 
 // Variables globales deljuego
 let gameOptions = {
-    velocidadInicio: 250,
+    velocidadInicio: 350,
     rangoSeparacion: [0, 300],
     plataformaRangoTamaño: [50, 250],
     gravedadJugador: 900,
     brinco: 400,
     posicionInicialJugador: 200,
-    brincos: 10
+    brincos: 3
 }
 
 window.onload = function () {
